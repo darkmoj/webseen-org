@@ -1,6 +1,3 @@
-defaults:
-  -
-    scope:
-      path:            "assets/**/*.pdf"
-    values:
-      sitemap:         false
+url: "http://site.webseen.org" # the base hostname & protocol for your site
+plugins:
+  - jekyll-sitemap
